@@ -1,10 +1,10 @@
 class GuessingGame {
- var min;
- var max;   
+ var min0;
+ var max0;   
  constructor() {}  
-   setRange(min1, max1) {
+   setRange(min, max) {
 
- min=min1; max=max1;   
+ min0=min; max0=max;   
 
   } 
   guess() {
@@ -12,10 +12,10 @@ class GuessingGame {
  }       
 lower() { 
 
- max=guess();   
+ max0=guess();   
   }  
     greater() { 
- min=guess();
+ min0=guess();
 }
 
 }
