@@ -1,5 +1,5 @@
 class GuessingGame {
-
+var min1;
     constructor() {}
 
 
