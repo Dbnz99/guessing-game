@@ -13,15 +13,20 @@ m1=max;
 
 
     guess() {
-guess1=((m0+m1)%+m0+m1)/2;
-
+ guess1=((m0+m1)%+m0+m1)/2;
+if (guess1<this) {
+    lower();
+}
+        if (guess1<this){
+            greater();
+        }
 
     }
 
 
 
     lower() {
-
+m1=guess1;
 
 
     }
@@ -30,7 +35,7 @@ guess1=((m0+m1)%+m0+m1)/2;
 
     greater() {
 
-
+m0=guess1;
 
     }
 
