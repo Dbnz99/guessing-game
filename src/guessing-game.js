@@ -13,7 +13,7 @@ m1=max;
 
 
     guess() {
-return (m0+m1+(m0+m1)%)/2
+
 
 
     }
