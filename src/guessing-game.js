@@ -11,27 +11,18 @@ this.max=max;
 
 
 guess() { 
-
-
-
 this.middle =  Math.floor((this.min + (this.max - this.min)/2)); 
 return this.middle; 
-
 } 
 
 
 lower() { 
-
-
 this.max=this.middle; 
 } 
 
 
 greater() { 
-
-
 this.min=this.middle; 
-
 } 
 
 } 
